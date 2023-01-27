@@ -1,0 +1,11 @@
+Session session=getFactory().getCurrentSession();
+				Transaction tx=session.beginTransaction();
+				try {
+					
+					tx.commit();
+				} catch (Exception e) {
+					tx.rollback();
+					System.out.println(e);
+					System.out.println("erro");
+				}
+

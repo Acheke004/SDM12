@@ -1,0 +1,86 @@
+left outer join 
+[Product ID 3 [productName=p3, price=900.0, description=ppppp, inStock=true], Product ID 2 [productName=p2, price=900.0, description=ppp, inStock=true], Product ID 1 [productName=p1, price=9000.0, description=ppp, inStock=true]]
+[Product ID 3 [productName=p3, price=900.0, description=ppppp, inStock=true], Product ID 2 [productName=p2, price=900.0, description=ppp, inStock=true], Product ID 1 [productName=p1, price=9000.0, description=ppp, inStock=true]]
+[Product ID 3 [productName=p3, price=900.0, description=ppppp, inStock=true], Product ID 2 [productName=p2, price=900.0, description=ppp, inStock=true], Product ID 1 [productName=p1, price=9000.0, description=ppp, inStock=true]]
+[]
+[Product ID 7 [productName=e2, price=90000.0, description=uuuu, inStock=true], Product ID 6 [productName=e1, price=9000.0, description=uu, inStock=true]]
+[Product ID 7 [productName=e2, price=90000.0, description=uuuu, inStock=true], Product ID 6 [productName=e1, price=9000.0, description=uu, inStock=true]]
+[]
+[]
+
+
+
+right outer join 
+[Product ID 1 [productName=p1, price=9000.0, description=ppp, inStock=true], Product ID 2 [productName=p2, price=900.0, description=ppp, inStock=true], Product ID 3 [productName=p3, price=900.0, description=ppppp, inStock=true]]
+[Product ID 1 [productName=p1, price=9000.0, description=ppp, inStock=true], Product ID 2 [productName=p2, price=900.0, description=ppp, inStock=true], Product ID 3 [productName=p3, price=900.0, description=ppppp, inStock=true]]
+[Product ID 1 [productName=p1, price=9000.0, description=ppp, inStock=true], Product ID 2 [productName=p2, price=900.0, description=ppp, inStock=true], Product ID 3 [productName=p3, price=900.0, description=ppppp, inStock=true]]
+[Product ID 6 [productName=e1, price=9000.0, description=uu, inStock=true], Product ID 7 [productName=e2, price=90000.0, description=uuuu, inStock=true]]
+[Product ID 6 [productName=e1, price=9000.0, description=uu, inStock=true], Product ID 7 [productName=e2, price=90000.0, description=uuuu, inStock=true]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Waterfall
+§ Requirement
+Specification
+§ Design
+§ Implementation
+§ Verification and Testing
+§ Deployment
+§ Maintenance
+
+avd:
+base model
+simple and easy
+small projects
+
+disadv:
+No feedback
+No experimentno parallelism (all team not work only specific phase team word)
+high risk
+60% effort maintance
+
+********************************
+Iterative Model
+feasibility study no
+2month
+planning, analysis, implementation, and evaluation.
+adv
+feedback system from forward phase to backword
+
+dadv
+no overlapping
+no immediate delivery
+rigid(no changes)
+less customer interaction
+
+************************************************
+V-shaped model
+verification and validation model 
+extension of WF model
+testing is associated with every phase of lifecycle
+*)verification phase(requirnment analysis,system design,architecture design,Module design)
+*)validation phase(unit testing,Integration,system,acceptance testing)
+
+
+
+
+
+
+
